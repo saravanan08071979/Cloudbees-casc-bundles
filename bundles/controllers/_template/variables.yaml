@@ -1,0 +1,5 @@
+variables:
+  - base_domain: "andromedaci.com"
+  - controller_name: "your-controller-name"
+  - controller_fqdn: "your-controller-name.andromedaci.com"
+  - bundle_id: "your-controller-name"

@@ -1,0 +1,7 @@
+jenkins:
+  systemMessage: |
+    CloudBees CI Managed Controller: ${controller_name}
+    Domain: ${controller_fqdn}
+
+  # Best practice: do not run builds on the controller itself
+  numExecutors: 0

@@ -1,0 +1,13 @@
+id: "mc1"
+version: "1"
+apiVersion: "1"
+description: "Managed Controller mc1 (andromedaci.com)"
+jcasc:
+  - "jenkins.yaml"
+items:
+  - "items.yaml"
+itemRemoveStrategy:
+  items: "none"
+  rbac: "sync"
+variables:
+  - "variables.yaml"

@@ -1,0 +1,13 @@
+id: "your-controller-name"
+version: "1"
+apiVersion: "1"
+description: "Managed Controller your-controller-name (andromedaci.com)"
+jcasc:
+  - "jenkins.yaml"
+items:
+  - "items.yaml"
+itemRemoveStrategy:
+  items: "none"
+  rbac: "sync"
+variables:
+  - "variables.yaml"

@@ -1,0 +1,9 @@
+removeStrategy:
+  items: "none"
+  rbac: "sync"
+
+items:
+  - kind: "folder"
+    name: "seed"
+    displayName: "Seed"
+    description: "Starter folder created by CasC bundle ${bundle_id}"
