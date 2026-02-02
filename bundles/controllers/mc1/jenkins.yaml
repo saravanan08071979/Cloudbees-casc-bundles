@@ -1,5 +1,5 @@
 jenkins:
-  systemMessage: |
+  systemMessage: "mc1 - CasC OK"
     CloudBees CI Managed Controller: ${controller_name}
     Domain: ${controller_fqdn}
 
