@@ -1,7 +1,4 @@
 jenkins:
-  systemMessage: "mc1 - CasC OK"
-    CloudBees CI Managed Controller: ${controller_name}
-    Domain: ${controller_fqdn}
-
-  # Best practice: do not run builds on the controller itself
-  numExecutors: 0
+  systemMessage: |
+    mc1 - CasC OK
+    CloudBees CI Managed Controller
